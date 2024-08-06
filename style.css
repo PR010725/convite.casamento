@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Define o fundo preto para telas que não suportam vídeo em tela cheia */
+  }
+  
+  #fullScreenVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz o vídeo cobrir toda a tela */
+  }
+  
